@@ -43,12 +43,6 @@ return require('packer').startup(function(use)
 	}
 	--auto close html tags
 	use 'windwp/nvim-ts-autotag'
-	-- require'nvim-treesitter.configs'.setup {
-	-- 	autotag = {
-	-- 		enable = true,
-	-- 	}
-	-- }
-	-- use 'alvan/vim-closetag'
 	-- color scheme mmm
 	use 'folke/tokyonight.nvim'
 end)
